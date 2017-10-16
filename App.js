@@ -58,7 +58,7 @@ export default class App extends React.Component {
 
     return (
       <ScrollView style={styles.container}>
-        <Image source={pic} style={{width: 193, height: 110}}/>
+        { this.state.showOnload ? <Image source={pic} style={{width: 193, height: 110}}/> : null }
         <Greeting name="Ro" />
         <Greeting name="Amsterdam" />
         <SubHeader name="This is pretty sweet" />
@@ -103,7 +103,7 @@ export default class App extends React.Component {
         
         <Text style={[styles.bigblue, styles.red]}>bigblue, then red</Text>
         <Text style={[styles.red, styles.bigblue]}>Try Me, Try me!</Text>
-        <Text>{this.state.showOnload ? "hide" : "show"}</Text>
+        <Text>{this.state.showOnload ? "hide movie list" : "show movie list"}</Text>
         <Button
           onPress={ () => this.handleClick() }
           title="Change String"
