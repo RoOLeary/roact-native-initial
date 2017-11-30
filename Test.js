@@ -6,7 +6,7 @@ class Test extends React.Component {
     return (
       <View style={styles.container}>
         <Text>I am a secondary component. Hear me roar</Text>
-        <Text>And so he spoke, and so he spoke, that Lord of Castamere, but now the rains, weep o'er his hall, with no-one there to hear.</Text>
+        <Text>Maribor 0-7 Liverpool</Text>
       </View>
     );
   }
@@ -14,11 +14,11 @@ class Test extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: 'red',
+    backgroundColor: 'blue',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
   },
+
 });
 
 

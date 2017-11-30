@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 
-class Blink extends React.Component {
+class Blink extends Component {
   constructor(props) {
     super(props);
     this.state = {showText: true};

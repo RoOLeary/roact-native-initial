@@ -13,7 +13,6 @@ class SubHeader extends React.Component {
     <View>
       <Text>I am the Subheader! {this.props.name}</Text>
       <Text id="flashy"></Text>
-      <Image source={pic} style={{width: 193, height: 110}}/>
     </View>
     );
   }

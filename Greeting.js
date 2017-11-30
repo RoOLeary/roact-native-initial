@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 class Greeting extends React.Component {
   render() {
     return (
-      <Text>Hello {this.props.name}!</Text>
+      <Text>{this.props.greeting} {this.props.name}!</Text>
     );
   }
 }
